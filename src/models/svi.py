@@ -357,7 +357,7 @@ if __name__ == "__main__":
     print("\n4. Model vs Market Comparison:")
     print(f"{'Strike':<10} {'Market IV':<12} {'Model IV':<12} {'Difference':<12}")
     print("-" * 50)
-    
+ 
     for K, market_iv in zip(strikes, market_ivs):
         model_iv = svi.get_iv(K, forward, maturity)
         diff = (model_iv - market_iv) * 100
