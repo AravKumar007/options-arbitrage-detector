@@ -20,7 +20,7 @@ This project implements an end-to-end options arbitrage detection system designe
 ## 🚀 Quick Demo
 
 **Try the interactive notebook:**
-- 📓 [Complete System Demo](notebooks/demo_options_arbitrage.ipynb) - Live examples with real market data
+- 📓 [Complete System Demo](https://colab.research.google.com/drive/14W3c_Jdxaq_LOO2afIyE3vzSP8U_fodL?usp=sharing) - Live examples with real market data
 
 **To run locally:**
 ```bash
